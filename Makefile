@@ -20,7 +20,7 @@ install:
 		cp $$i $(PREFIX)/bin/ ; \
 	done
 
-clean:
+uninstall:
 	for i in $(FILES) ; do \
 		echo $$i ; \
 		rm $(PREFIX)/bin/$$i ; \
