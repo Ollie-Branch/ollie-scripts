@@ -1,0 +1,7 @@
+#+title: Readme
+
+* Some helper scripts I've made
+Install using ~make install~ and uninstall using ~make clean~
+The prefix directory defaults to ~$HOME/.local~ but can be overriden using ~make PREFIX=/your/prefix/directory install~
+You may need to ~chmod~ the scripts before you install with make, I have yet to chmod them automatically in make
+If you forget to chmod the scripts before installing you'll have to go to your prefix directoy to chmod them, and then chmod the original files so they automatically have the right permissions.
